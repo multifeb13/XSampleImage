@@ -4,8 +4,13 @@
              xmlns:local="clr-namespace:XSampleImage"
              x:Class="XSampleImage.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout HorizontalOptions = "Center"
+             VerticalOptions = "Center"
+             WidthRequest = "400">
+
+        <!--URLから画像を取得-->
+        <Image Source = "https://i2.wp.com/oxamarin.com/wp-content/uploads/2016/12/りんちゃん.jpg"/>
+
+    </StackLayout>
 
 </ContentPage>
