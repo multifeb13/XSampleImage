@@ -4,13 +4,13 @@
              xmlns:local="clr-namespace:XSampleImage"
              x:Class="XSampleImage.MainPage">
 
-    <StackLayout HorizontalOptions = "Center"
-             VerticalOptions = "Center"
-             WidthRequest = "400">
+    <StackLayout>
+        <!--Resourceから画像を取得-->
+        <Label Text="コードで表示（ImageSource.FromResource）" />
+        <Image x:Name="Image2"/>
 
-        <!--URLから画像を取得-->
-        <Image Source = "https://i2.wp.com/oxamarin.com/wp-content/uploads/2016/12/りんちゃん.jpg"/>
-
+        <Label Text="コードで表示2（ImageSource.FromResource）" />
+        <Image x:Name="Image3"/>
     </StackLayout>
 
 </ContentPage>

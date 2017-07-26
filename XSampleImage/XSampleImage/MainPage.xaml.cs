@@ -12,6 +12,9 @@ namespace XSampleImage
         public MainPage()
         {
             InitializeComponent( );
+
+            Image2.Source = ImageSource.FromResource( "XSampleImage.Resources.Images.りんちゃん.jpg" );
+            Image3.Source = ImageSource.FromResource( "XSampleImage.Resources.Images.りんちゃん.jpg" );
         }
     }
 }
